@@ -1,0 +1,99 @@
+.house{
+    display: grid;
+    grid-template-columns: repeat(3,1pr);
+    grid-template-rows: repeat(8,1pr);
+    grid-template-areas: 
+    "hdr hdr hdr"
+    "nav nav nav"
+    "pc1 pc2 pc3"
+    "pc4 pc5 pc6"
+    "pc7 pc8 pc9"
+    "p10 p11 p12"
+    "p13 p14 p15"
+    "ftr ftr ftr"
+    
+    ;
+}
+
+#header{
+    grid-area: hdr;
+    
+
+}
+
+#welcome{
+    grid-column: 1/3;
+}
+
+#nav{
+    grid-area: nav;
+}
+
+#footer{
+    grid-area: ftr;
+}
+
+#luffy{
+    grid-area: pc1;
+}
+
+#vegeta{
+    grid-area: pc2;
+}
+
+#kakashi{
+    grid-area: pc3;
+}
+
+#maka{
+    grid-area: pc4;
+}
+
+#mikasa{
+    grid-area: pc5;
+}
+
+#yami{
+    grid-area: pc6;
+}
+
+#urahara{
+    grid-area: pc7;
+
+}
+
+#chrollo{
+    grid-area: pc8;
+}
+
+#gary{
+    grid-area: pc9;
+}
+
+#jojo{
+    grid-area: p10;
+}
+
+#yuyu{
+    grid-area: p11;
+}
+
+#spike{
+    grid-area: p12;
+}
+
+#afro{
+    grid-area: p13;
+}
+
+#L{
+    grid-area: p14;
+}
+
+#nezuko{
+    grid-area: p15;
+}
+
+
+
+
