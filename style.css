@@ -1,3 +1,9 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: 0;
+}
+
 #anime{
     display: grid;
     grid-template-columns: repeat(3,1pr);
@@ -11,15 +17,19 @@
     "p10 p11 p12"
     "p13 p14 p15"
     "ftr ftr ftr"
-    
     ;
+    background-color: lightcoral;
+    
 }
+
+
 
 #header{
     grid-area: hdr;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    background-color: goldenrod;
     
 
 }
@@ -28,18 +38,23 @@
 
 #nav{
     grid-area: nav;
+    background-color: gray;
 }
 
 #footer{
     grid-area: ftr;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    background-color: lightskyblue;
 }
 
 #luffy{
-    grid-area: pc2;
+    grid-area: pc1;
 }
 
 #vegeta{
-    grid-area: pc1;
+    grid-area: pc2;
 }
 
 #kakashi{
