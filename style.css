@@ -19,7 +19,7 @@
     "ftr ftr ftr"
     ;
     background-color: lightcoral;
-    
+    grid-gap: 30px;
 }
 
 
@@ -38,7 +38,14 @@
 
 #nav{
     grid-area: nav;
-    background-color: gray;
+    background-color: lime;
+    
+}
+
+#nav-list{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
 }
 
 #footer{
@@ -110,6 +117,38 @@
     grid-area: p15;
 }
 
+@media (max-width:375px){
+    body{
+        grid-template-columns: 1 1pr;
+        grid-template-rows: 18 1pr;
+    }
+   
+    #anime{
+
+        grid-template-columns: repeat(auto-fit 1pr);
+        grid-template-rows: repeat(auto-fit 1pr);
+        grid-template-areas: 
+        "hdr"
+        "nav"
+        "pc1"
+        "pc2"
+        "pc3"
+        "pc4"
+        "pc5"
+        "pc6"
+        "pc7"
+        "pc8"
+        "pc9"
+        "p10"
+        "p11"
+        "p12"
+        "p13"
+        "p14"
+        "p15"
+        "ftr"
+        ;
+    }
+}
 
 
 
