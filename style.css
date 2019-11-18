@@ -35,7 +35,7 @@ body{
     justify-content: center;
     font-family: 'Lobster', cursive;
     background-image: none;
-    background-color: goldenrod;
+   
     
     
 
@@ -45,6 +45,7 @@ body{
 
 #nav{
     grid-area: nav;
+    background-image: none;
     background-color: lime;
     
 }
@@ -53,6 +54,8 @@ body{
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
+    background-image: none;
+    color: tomato;
 }
 
 #footer{
